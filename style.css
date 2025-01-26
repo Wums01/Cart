@@ -1,0 +1,105 @@
+.container{
+  display: flex;
+  gap: 10rem;
+}
+
+.display_product{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  width: 60vw;
+}
+
+.gg{
+  position: relative;
+  padding: 8px;
+  border-radius: 10px;
+  bottom: 9rem;
+  left: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+input:hover{
+  background: brown;
+}
+.quantity-controls{
+  position: relative;
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 9.5rem;
+  left: 2rem;
+  cursor: pointer;
+  display: none;
+  
+}
+
+input{
+  width: 80px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn{
+  position: relative;
+  /* width: 100px; */
+  padding: 10px;
+  border-radius: 1rem;
+  bottom: 7rem;
+  left: 3rem;
+  cursor: pointer;
+  display: none;
+}
+
+.price{
+  color: brown;
+}
+
+.image{
+  width: 250px;
+  position: relative;
+}
+
+.numbers{
+  position: relative;
+  width: 80px;
+  padding: 8px;
+  border-radius: 1rem;
+  bottom: 8rem;
+  left: 4rem;
+  display: none;
+  cursor: pointer;
+}
+
+
+.btn1{
+  display: flex;
+  align-items: center;
+  background-color: brown;
+  padding: 8px;
+  border-radius: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+span{
+  margin-right: 10px;
+}
+
+.icon{
+  display: flex;
+  gap: 5rem;
+}
+
+p{
+  font-size: 15px;
+}
+
+
+.flex {
+  font-family: 'Times New Roman', Times, serif;
+  font-optical-sizing: auto;
+  font-weight: 30px;
+  font-style: normal;
+}
